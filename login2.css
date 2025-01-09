@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000020;
+}
+
+.container {
+    display: flex;
+    
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0px 0px 20px 5px #ffffffa8; 
+    -webkit-box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+    background-color: #171a4a;
+    
+}
+
+.info {
+    background-image: url(./Asset/jeff.gif);
+    background-color: #171a4a;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 50px;
+    width: 50%;
+}
+
+
+
+.form {
+    padding: 150px 100px;
+    width: 50%;
+    text-align: center;
+    background-color:#171a4a;
+}
+
+.form h2 {
+    color: #5effe7;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 16px;
+    
+    margin-bottom: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    overflow: none;
+    border-color: #000020;
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+.submit {
+    background-color: #000020;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+@media (max-width: 990px) {
+    .container {
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+.section {
+    background-color: #6e0808;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons a {
+    margin: 0 30px; 
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #000020;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.buttons a:hover {
+    transform: scale(1.2);
+}
+

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: pixelfont;
+    src: url(./Asset/Fonts/pixelfont.TTF);
+}
+
+@font-face {
+    font-family: retro;
+    src: url(./Asset/Fonts/retro.ttf);
+}
+.login {
+    font-family: retro;
+}
+.h2login {
+    font-family: pixelfont;
+}
+.form p {
+    font-family: retro;
+    color: rgb(255, 255, 255);
+}
+.submit{
+    font-family: retro;
+}
+.inicio{
+    font-family: retro;
+}
+.invasores{
+    font-family: pixelfont;
+    color: white;
+}
+.content-controls{
+    font-family: retro;
+    margin-top: 20px;
+    color: white;
+}

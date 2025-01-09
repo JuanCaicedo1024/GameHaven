@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GameHaven</title>
+        <link rel="shortcut icon" href="./Asset/mando-removebg-preview.png" type="image/x-icon">
+        <link rel="stylesheet" href="fuentes.css">
+        <link rel="stylesheet" href="./login2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+    </head>
+<body onclick="play2()">
+<div class="container">
+    <div class="info">
+        
+    </div>
+   <form class="form">
+    <h2 class="h2login">Login </h2>
+    <p>
+        Sumergete en un mundo de diversion y entretenimiento en GameHave, tu destino definitivo para juegos en linea.¿Listo para unirte a la diversion?
+    </p>
+
+    <div class="input">
+        <input type="email" class="box" placeholder="ingrese su correo">
+
+        <input type="password" class="box" placeholder="ingrese su contraseña">
+
+        
+        <button class="submit" onclick="inicio()">
+            login
+        </button>
+        
+        <script>
+            function inicio(){
+                console.log("La función inicio() se ha llamado.");
+                location.href ="index.html"
+            }
+        </script>
+        
+    </div>
+    <section class="buttons">
+        <a href="https://discord.gg/fTetTdJ2j4" class="fab fa-discord"></a>
+
+        <a href="https://twitter.com/sebasCa73880551?t=cQUXy3Xbt5ZOxzVmk35EDw&s=09" class="fab fa-twitter"></a>
+        <a href="https://www.youtube.com/@look9574" class="fab fa-youtube"></a>
+    </section>
+
+
+   </form>
+   <audio id="musica2" loop>
+    <source src="./Asset/musica2.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        function play2() {
+    var audioElement1 = document.getElementById("musica2");
+    if (audioElement1) {
+        audioElement1.volume = 0.1; 
+        audioElement1.play(); 
+    }
+    }
+
+    </script>
+</div>
+
+</body>
+</html>

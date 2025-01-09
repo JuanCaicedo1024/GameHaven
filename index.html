@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styless.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./fuentes.css">
+    <link rel="shortcut icon" href="./Asset/mando-removebg-preview.png" type="image/x-icon">
+    <title>GameHaven</title>
+</head>
+
+
+<body onclick="play()">
+
+
+    <header class="barra-superior">
+
+        <img src="./Asset/gamehave.png" alt="portillo haga el logo :V" onclick="diciembre()">
+        <script>
+            function diciembre(){
+                location.href ="diciembre.html"
+            }
+        </script>
+        <div class="button-container">
+        <button class="inicio" onclick="inicio()">
+            inicio
+            
+        </button>
+        <script>
+            function inicio(){
+                location.href ="index.html"
+            }
+        </script>
+        <button class="login" onclick="redireccion()">
+            login
+            
+            <div class="arrow-wrapper">
+                <div class="arrow"></div>
+        
+            </div>
+        </button>
+        <script >
+            function redireccion(){
+                location.href = "login.html"
+            }
+
+        </script>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="container">
+
+            <div class="juego1" onclick="raya()">
+
+                
+
+            </div>
+            <script>
+                function raya(){
+                    location.href ="3raya.html"
+                }
+            </script>
+
+            <div class="juego2" onclick="rex()">
+
+
+
+            </div>
+            
+            <script>
+                function rex(){
+                    location.href ="rex.html"
+                }
+            </script>
+
+            <div class="juego3" onclick="nave()">
+            
+
+
+            </div>
+            <script>
+                function nave(){
+                    location.href ="invader.html"
+                }
+            </script>
+        </div>
+
+        <audio id="musica1" loop>
+            <source src="./Asset/musica1.mp3" type="audio/mp3">
+        </audio>
+        <script>
+            function play() {
+        var audioElement = document.getElementById("musica1");
+        if (audioElement) {
+            audioElement.volume = 0.1; 
+            audioElement.play(); 
+        }
+        }
+
+        </script>
+    </main>
+
+
+    <footer>
+
+
+    </footer>
+
+
+</body>
+
+
+</html>

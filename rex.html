@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./Dinosaurio 2/Funciones.JS"></script>
+    <link rel="stylesheet" href="./styless.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./fuentes.css">
+    <link rel="shortcut icon" href="./Asset/mando-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Dinosaurio 2/Colores.Css">
+    <title>GameHaven</title>
+</head>
+
+
+<body onclick="play()">
+
+
+    <header class="barra-superior">
+
+        <img src="./Asset/gamehave.png" alt="portillo haga el logo :V" onclick="diciembre()">
+        <script>
+            function diciembre(){
+                location.href ="diciembre.html"
+            }
+        </script>
+        <div class="button-container">
+        <button class="inicio" onclick="inicio()">
+            inicio
+            
+        </button>
+        <script>
+            function inicio(){
+                location.href ="index.html"
+            }
+        </script>
+        <button class="login" onclick="redireccion()">
+            login
+            
+            <div class="arrow-wrapper">
+                <div class="arrow"></div>
+        
+            </div>
+        </button>
+        <script >
+            function redireccion(){
+                location.href = "login.html"
+            }
+
+        </script>
+        </div>
+    </header>
+
+
+    <main class="rex">
+
+        <div class="contenedor1">
+
+            <div class="suelo"></div>
+            
+            <div class="dino dino-corriendo"></div>
+    
+            <div class="score">0</div>
+    
+        </div>
+    
+        <div class="game-over">GAME OVER</div>
+    
+        
+    </main>
+
+
+    <footer>
+
+
+    </footer>
+
+
+</body>
+
+
+</html>

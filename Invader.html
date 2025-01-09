@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./Invasores/estilos.css">
+		<link rel="stylesheet" href="./styless.css">
+		<link rel="stylesheet" href="./login.css">
+		<link rel="stylesheet" href="./fuentes.css">
+		<link rel="shortcut icon" href="./Asset/mando-removebg-preview.png" type="image/x-icon">
+		<script type ="text/javascript" src="./Invasores/funciones.js"></script>
+		<title>GameHaven</title>
+	</head>
+	<body >
+		<header class="barra-superior">
+
+			<img src="./Asset/gamehave.png" alt="portillo haga el logo :V" onclick="diciembre()">
+			<script>
+				function diciembre(){
+					location.href ="diciembre.html"
+				}
+			</script>
+			<marquen class="invasores">INVASORES</marquen>
+			<div class="button-container">
+			<button class="inicio" onclick="inicio()">
+				inicio
+				
+			</button>
+			<script>
+				function inicio(){
+					location.href ="index.html"
+				}
+			</script>
+			<button class="login" onclick="redireccion()">
+				login
+				
+				<div class="arrow-wrapper">
+					<div class="arrow"></div>
+			
+				</div>
+			</button>
+			<script >
+				function redireccion(){
+					location.href = "login.html"
+				}
+	
+			</script>
+			</div>
+		</header>
+
+		<main class="inv">
+
+			
+		<canvas id="miCanvas" width="600px" height="500px">
+			Tu navegador no soporta CANVAS
+		</canvas>
+		
+	</body>
+</html>
