@@ -4,9 +4,9 @@ GameHaven es una página web dedicada a los juegos clásicos que nos transportan
 
 ### Tecnologías utilizadas:
 
-HTML5: Para la estructura y el diseño semántico de la página.
-CSS3: Estilos modernos y adaptativos que brindan una experiencia visual atractiva.
-JavaScript: Implementación de interactividad y funcionalidades dinámicas.
-Git y GitHub: Para el control de versiones y colaboración en el proyecto.
+- HTML5: Para la estructura y el diseño semántico de la página.
+- CSS3: Estilos modernos y adaptativos que brindan una experiencia visual atractiva.
+- JavaScript: Implementación de interactividad y funcionalidades dinámicas.
+- Git y GitHub: Para el control de versiones y colaboración en el proyecto.
 
 Este proyecto refleja la pasión por los videojuegos clásicos y el desarrollo web. ¡Explora GameHaven y déjate llevar por la nostalgia!
